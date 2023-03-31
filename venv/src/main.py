@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session, sessionmaker
 from models.base import Base
-from models.jogoEletronico import Pessoa
+from models.jogoEletronico import jogoEletronico
 
 
 engine = create_engine("sqlite+pysqlite:///jogo.db", echo=True)
